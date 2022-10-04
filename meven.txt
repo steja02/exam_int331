@@ -1,0 +1,53 @@
+MEVIN overview:
+
+mevin is a project management and comprehenson tool that provide developers a  complete build lifecycle framework
+
+developement team can automate the projects, build infrastructure in almost no time as mevin uses a standard directory layout and a default built lifecycle
+
+In case of mutiple developement teams environment mevin can setup the way to work as per standards in a very short time
+
+As most of the projects setups are simple and reusable mevin make the life of the developer easy while creating reports, checks, builts, testing the automata setups
+
+Mevun provides the developers ways to mange the following.
+1. Builts
+2. Documentation
+3. Reporting
+4. Dependencies
+5. Releases
+6. Distribution
+7. Mailing list
+
+To summarize Mevin simplifies and standardize the project build.It handles compilation, Distribution, Documentation, team collaboration and other relavent tasks seamlessly.
+
+Meven increases the reusability and takes care of most of the build related tasks
+
+OBJECTIVES:
+
+The primary goal of the mevin is to provide developer with the following:
+1. A comprehensive model for projects, which is reusable, maintainable and easy to comprehend
+2. Plugins or tools that interact with this declarative model
+
+Mevin project structure and contents are declare in a executable file, pom file which is rerfered to project object model which is fundamental unit of the entire mevin system
+
+Features:
+
+1. Simple project setup that follows best practices
+2. consistent usage across all the projects
+3. Dependency management including automatic updating
+4. A large and growing libraries of repositorries
+5. extensible, with the ability to easily write plugins in java or scripting languages
+6. Instant access to new features with little or no extra configurations
+7. model based builds
+8. Maven is able to buit any number of projects into predefined output types such as .jar files, meta data
+9. Coherent site of project information
+10. using same metadata as per the bulit purpose meven is able to generate a website and a pdf including a complete documentation 
+11. release management and distribution publication
+	- without additional configuration mevin will integrate with a source control system and manages the relese of the project
+12. Backward compatibility
+	- you can easily port a multiple modules of a project into meven-v3 from older versions of mevin
+13. automatic parent versionig
+	- no need to specify the parent in the moduke for maintainance
+14. Parallel builts
+	- it analyses the project dependencies and enables you to build schedule modules in parallel. Using this you can achieve the performance improvements 	  of 20-50%
+15. Better error and integrity reporting
+	- meven improve error reporting, and it provides you with a link to the meven wikipage where you will get the full description of the error
